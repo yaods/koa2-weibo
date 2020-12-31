@@ -1,3 +1,7 @@
+/*
+ * @Description: route index
+ * @Author: yaods
+ */
 const router = require('koa-router')()
 
 router.get('/', async (ctx, next) => {
@@ -26,7 +30,6 @@ router.get('/json', async (ctx, next) => {
     session.viewNum = 0
   }
   session.viewNum++
-
   ctx.body = {
     title: 'koa2 json',
     viewNum: session.viewNum
