@@ -1,10 +1,6 @@
 /*
- * @Description: 
+ * @Description: 存储配置
  * @Author: yaods
- */
-/**
- * @description 存储配置
- * @author yaods
  */
 
 const { isPrd } = require('../utils/env')
